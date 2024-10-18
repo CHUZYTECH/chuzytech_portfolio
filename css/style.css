@@ -1,0 +1,299 @@
+.logo {
+    color: white;
+    text-transform: capitalize;
+    /* font-family: 'Permanent Marker', cursive; */
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.chuzytech {
+    /* color: rgb(241, 150, 117); */
+    color: #04AA6D;
+
+
+}
+
+.social-icons {
+    /* display: flex; */
+    justify-content: center;
+    /* align-items: center; */
+    /* padding: 10px; */
+    /* margin-top: 25px; */
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px;
+    font-size: 17px;
+    /* color: rgb(241, 150, 117); */
+    color: #04AA6D;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.social-icons a:hover {
+    color: white;
+    transform: rotate(360deg);
+    scale: 125.5%;
+    transition: 0.5s;
+
+}
+
+.home {
+    position: relative;
+    background-image: url(../images/homepage.png);
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Adjust the last value for transparency */
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+.contact {
+    position: relative;
+    background-image: url(../images/contactpage.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Adjust the last value for transparency */
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    display: flex;
+}
+
+.services {
+    position: relative;
+    background-image: url(../images/services.png);
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Adjust the last value for transparency */
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    display: flex;
+}
+
+.about {
+    position: relative;
+    background-image: url(../images/aboutpage.png);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Adjust the last value for transparency */
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    display: flex;
+
+}
+
+.portfolio {
+    position: relative;
+    background-image: url(../images/porfoliopage.png);
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Adjust the last value for transparency */
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+}
+
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    /* Add an overlay for better text visibility */
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.centered-div {
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.welcome {
+    /* width: 100%; */
+    /* height: 25vh; */
+    background-color: #314346;
+    /* justify-content: center; */
+    /* padding: 9px; */
+    /* font-size: 1rem; */
+    /* color: rgb(241, 150, 117); */
+    color: coral;
+}
+
+.form {
+    /* background-color: #C8C9CD; */
+    border-radius: 10px;
+    /* font-weight: 600; */
+    /* border: 2px solid rgba(255, 255, 255, 0.5); */
+    /* border: 0.5px solid #737374; */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    /* background-color: rgba(255, 255, 255, 0.5); */
+    /* Adjust the last value for transparency */
+    z-index: 1;
+    /* background-color: #2E4043; */
+
+}
+
+.services-body {
+    background-color:  #314346;
+}
+
+.my-name {
+    color: white;
+}
+
+.chux {
+    /* color: rgb(241, 150, 117); */
+    color: #04AA6D;
+}
+
+.about-pic {
+    width: 330px;
+    height: 330px;
+    /* border: 5px solid #C6C3BE;  */
+    border-radius: 100%;
+    /* background-color: rgb(241, 150, 117); */
+    background-color: #04AA6D;
+    margin: 0 auto;
+
+}
+
+.about-pic:hover {
+    transform: rotate(360deg);
+    scale: 110%;
+    transition: 0.5s;
+    background-color: #C6C3BE;
+    /* border: 5px solid rgb(241, 150, 117); */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* Adjust the last value for transparency */
+    z-index: 1;
+
+}
+
+.ok {
+    /* color: rgb(241, 150, 117); */
+    color: #04AA6D;
+}
+
+.lead {
+    text-align: justify;
+}
+
+.box {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Modify the values based on your preference */
+    padding: 10px;
+
+}
+
+.hover-effect:hover {
+    color: white;
+    border-radius: 5px;
+    scale: 110%;
+    transition: 0.5s;
+}
+
+.contact-btn {
+    width: 120px;
+
+}
+
+.contact-btn:hover {
+    background-color: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.new {
+    /* background-color: rgb(241, 150, 117); */
+    background-color: #04AA6D;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+
+}
+
+.body {
+    background-color: #314346;
+}
+
+.cd {
+    /* color: rgb(241, 150, 117); */
+    color: #04AA6D;
+}
+
+.success {
+    /* background-color: rgb(241, 150, 117); */
+    color: black;
+}
+
+.success {
+    border-radius: 5px;
+
+
+}
+
+.slide {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    .toggle {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+}
+
+.box1 {
+    background-color: #FFF080;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    /* border-radius: 5px; */
+}
+
+.box2 {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    /* border-radius: 5px; */
+}
+
+.box3 {
+    background-color: #FFB3BB;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    /* border-radius: 5px; */
+}
+
+
+
+
