@@ -1,0 +1,43 @@
+.section {
+    background-color:#314346 ;
+    color: white;
+    padding: 20px 0;
+  }
+  .section h4, .footer label {
+    color: #f8f9fa;
+  }
+  .review-card {
+    background-color: #04AA6D;;
+    padding: 15px;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    position: relative;
+  }
+  .review-card .delete-review {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #dc3545; /* Red color for delete */
+  }
+  .admin-controls {
+    display: none; /* Hide admin controls by default */
+  }
+  .star-rating {
+    direction: rtl;
+    display: inline-flex;
+  }
+  .star-rating input[type="radio"] {
+    display: none;
+  }
+  .star-rating label {
+    font-size: 1.2rem;
+    color: #ddd;
+    cursor: pointer;
+  }
+  .star-rating input[type="radio"]:checked ~ label,
+  .star-rating label:hover,
+  .star-rating label:hover ~ label {
+    color: #f39c12;
+  }
